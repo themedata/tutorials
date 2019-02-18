@@ -20,7 +20,7 @@ publishdate = "2019-01-09T00:00:00Z"
 saturation = 32.0
 skip_cover_nav = false
 skip_slide_animation = false
-title = "Building a Marketing Website"
+title = "Building a Website from A to Z"
 type = "presentation"
 
 [[gmgt_section]]
@@ -187,7 +187,7 @@ partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
   content = "* create a new organization in your Github account. The organization name must be unique, but not necessarily a registered business name. This tutorial uses the organization name \"toffee-and-coffee\". You will need to pick a different name.\n* your organization name is referred as [orgname] below. Please replace it with the actual name.\n* go to [https://github.com/toffee-and-coffee/toffee-and-coffee.github.io](https://github.com/toffee-and-coffee/toffee-and-coffee.github.io), and click on the fork button at the top right corner.  Then follow the prompt and select the organization account to fork this repository.\n* click on the settings tab below the repository name, and rename this newly forked repository following the pattern [orgname].github.io.  \n* you need to click on the rename button to confirm the name change. Github will enable site hosting for this repository automatically after the renaming. \n* check and verify you can visit the demo page by entering the address [orgname].github.io. \n* if you can't visit the page yet, try again after a little while. It may take a few seconds for the page to work, but occasionally it takes longer."
   intro = " "
   is_global = false
-  title = "Creating an Organization on Github"
+  title = "Creating an Organization on Github.com"
 
     [gmgt_section.data.appearance]
     section_background = "bg-white-90"
@@ -205,10 +205,10 @@ id = "smg7zd2v1"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* Upload your images to the \"images\" folder of the repository  you have forked and renamed, if the images are on your computer.\n* Your images will be available under the link [orgname].github.io/images/[image-name]. \n* Supported image suffix: jpg, jpeg, png, gif, webp, svg. You may give a meaningful name to the images in order to search by name later. \n* Big images are slow to upload and download. You may  resize them before uploading. \n* You can also link to your images online, or search for free images and link directly from [unsplash](https://unsplash.com). "
+  content = "* Upload your images to the \"images\" folder of the repository  you have forked and renamed, if the images are on your computer.\n* Your images will be available under the link [orgname].github.io/images/[image-name]. \n* Supported image suffix: jpg, jpeg, png, gif, webp, svg. You may give a meaningful name to the images in order to search by name later. \n* Big images are slow to upload and download. You may  resize them before uploading. \n* You can also link to your images online, or search for free images and link directly to custom resized images from [unsplash](https://unsplash.com). "
   intro = " "
   is_global = false
-  title = "Upload Images"
+  title = "Uploading Images to Github.com"
 
     [gmgt_section.data.appearance]
     section_background = "bg-transparent"
@@ -226,7 +226,7 @@ id = "sqdubww5f"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* you can open another tab and click this link to [create a new site project](/edit/?site=toffee_and_coffee). \n* a database by the name toffee_and_coffee will be created automatically in your browser. \n* hover on the left edge of the screen to show the vertical toolbar, click on the globe icon to show site setting window, click on the grid icon(<i class=\"fas fa-th-large\"></i>) to show extra tabs.\n* go to tab \"Remote Setting\", enter \"themedata\" as data repo owner and \"toffee-and-coffee\" as data repo name, then click on the button \"Load Remote Site Setting\". This will load the theme's default settings.\n* go to tab \"Current\", and update your website information and copyright statement there. The base url must be updated to your new website address, so that the media library knows where to find your uploaded images.\n* hover on the top edge of the screen to show the horizontal app toolbar, and click on \"Save\" button to save the changes."
+  content = "* you can open another tab and click this link to [create a new site project](/edit/?site=toffee_and_coffee). You will see a placeholder page without navigation menu links.\n* a database by the name toffee_and_coffee will be created automatically in your browser. \n* hover on the left edge of the screen to show the vertical toolbar, click on the globe icon to show site setting window, click on the grid icon(<i class=\"fas fa-th-large\"></i>) to show extra tabs.\n* go to tab \"Remote Setting\", enter \"themedata\" as data repo owner and \"toffee-and-coffee\" as data repo name, then click on the button \"Load Remote Site Setting\". This will load the theme's default settings, and the navigation menu links.\n* go to tab \"Current\", and update your website information and copyright statement there. The base url must be updated to your new website address, so that the media library knows where to find your uploaded images.\n* hover on the top edge of the screen to show the horizontal app toolbar, and click on \"Save\" button to save the changes."
   intro = " "
   is_global = false
   title = "Loading Theme Setting with Go and Talk Page Builder"
@@ -268,7 +268,7 @@ id = "sgnzms1dc"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* hover on the left edge of the screen to show the vertical toolbar, click on the globe icon to show site setting window.\n* go to tab \"Github\", and fill in the name of your Github organization and repository. \n* Click on the \"Fetch List\" button to refresh image list, then click on the dropdown icon to select your logo.\n* by default the images are fetched from the folder \"images\". If you have uploaded your logo to a subfolder, you can fill in the full path of the subfolder, for example \"images/logos\" to list images from the subfolder folder. When you have selected a logo, you can reset the image folder to \"images\", so as to select images from that folder.\n* if you can't see the file list, verify that repo owner and name are properly filled in above. \n* if you can see the file name but can't see images in the dropdown list, verify that your website address is properly filled in the \"Current\" tab of site setting."
+  content = "* hover on the left edge of the screen to show the vertical toolbar, click on the globe icon to show site setting window.\n* go to tab \"Github\", and fill in the name of your Github organization and repository. \n* Click on the \"Fetch List\" button to refresh image list, then click on the dropdown icon to select your logo.\n* by default the images are fetched from the folder \"images\". If you have uploaded your logo to a subfolder, you can fill in the full path of the subfolder, for example \"images/logos\" to list images from the subfolder. When you have selected a logo, you can reset the image folder to \"images\", so as to select images from that folder while you edit a page.\n* if you can't see the file list, verify that repo owner and name are properly filled in above. \n* if you can see the file name but can't see images in the dropdown list, verify that your website address is properly filled in the \"Current\" tab of site setting."
   intro = " "
   is_global = false
   title = "Selecting Uploaded Logo"
@@ -289,10 +289,10 @@ id = "srizhnebv"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* images are available in some sections. \n* you can click the cog icon (<i class=\"fas fa-cog\"></i>) on the horizontal toolbar to show the section option window, and select images in the following tabs: highlight image, background image, and  base image. \n* the image location is set in Github tab of site settings. you can click on the Fetch List button to update image list after changing image directory.\n* if you know the full address of the image, you can click on any image in edit mode, and paste the image url in the small popup window. "
+  content = "* images are available in some sections. \n* you can click the cog icon (<i class=\"fas fa-cog\"></i>) on the horizontal toolbar to show the section option window, and select images in the following tabs: highlight image, background image, and  base image. \n* images are rendered in layers on screen. The highlight image is closer to you, and the base image is away from you.\n* the image location is set in \"Github\" tab of site settings. you can click on the Fetch List button to update image list after changing image directory.\n* if you know the full address of the image, you can click on any image in edit mode, and paste the image url in the small popup window. "
   intro = " "
   is_global = false
-  title = "Selecting Uploaded Image"
+  title = "Selecting Uploaded Image in Page Builder"
 
     [gmgt_section.data.appearance]
     section_background = "bg-transparent"
@@ -310,7 +310,7 @@ id = "svow4nan6"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* click around and make changes as you wish.\n* select different images. If you can't find any image, check the site settings and make sure the names of your organization and repository are correct.\n* edit menu links and sections. You can specify different source for the embed map and video by toggling on the app, and click on the cog icon (<i class=\"fas fa-cog\"></i>) to open the options window. Go to Iframe tab and embed a new resource, for example a calendar.\n"
+  content = "* click around and make changes as you wish. Your changes are saved in the browser database automatically.\n* select different images. If you can't find any image, check the site settings and make sure the names of your organization and repository are correct.\n* edit menu links and sections. You can specify different source for the embed map and video by toggling on the app, and click on the cog icon (<i class=\"fas fa-cog\"></i>) to open the options window. Go to Iframe tab and embed a new resource, for example a calendar.\n"
   intro = " "
   is_global = false
   title = "Editing Page"
@@ -362,7 +362,7 @@ partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
   content = "* hover on the left edge of the screen to show the toolbar\n* click on file icon (<i class=\"fas fa-file-alt\"></i>) to show the page setting options\n* click on the grid icon (<i class=\"fas fa-th-large\"></i>) to show extra tabs. \n* click on tab \"Export Webpage\", and select \"web\" for Webpage Link Format.\n* copy the content of the web page, and paste it to the file index.html under the github repository you have just created. \n* alternatively you may click on the download button at the bottom of the form, save the web page as index.html to your computer, then upload the file and replace the file in your Github repository."
   intro = " "
   is_global = false
-  title = "Exporting a Web Page for Hosting"
+  title = "Exporting a Web Page for Hosting with Github Pages"
 
     [gmgt_section.data.appearance]
     slide_animation = "fadeIn"
@@ -383,7 +383,7 @@ partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
   content = "* hover on the left edge of the screen to show the toolbar\n* click on file icon (<i class=\"fas fa-file-alt\"></i>) to show the page setting options\n* click on the grid icon (<i class=\"fas fa-th-large\"></i>) to show extra tabs. \n* click on tab \"Export Webpage\", and select \"web\" for Webpage Link Format.\n* copy the content of the web page, and paste it to the file index.html under the __\"about\"__ folder in the Github repository you have just created. \n* alternatively you may click on the download button at the bottom of the form, save the web page as index.html to your computer, then upload the file and replace the file in \"about\" folder."
   intro = " "
   is_global = false
-  title = "Exporting About Page for Hosting"
+  title = "Exporting About Page for Hosting with Github Pages"
 
     [gmgt_section.data.appearance]
     slide_animation = "fadeIn"
@@ -401,13 +401,14 @@ id = "sx97qa9b6"
 partial = "goandtalk/slides/alternate-text-and-big-icon-layer"
 
   [gmgt_section.data]
-  content = "* Wait a few seconds and visit your website at [orgname].github.io. Please replace [orgname] with the actual name of the organization you have created.\n* You should be able to see the changes you have made to the home page."
+  content = "* Wait a few seconds and visit your website at [orgname].github.io. Please replace [orgname] with the actual name of the organization you have created.\n* You should be able to see the changes you have made to the home page.\n* Github Pages support custom domain name. If you have your a domain name, you may update the DNS record to point to the [orgname].github.io address. For details please refer to Github Pages documentation."
   intro = " "
   is_global = false
   title = "Visiting Your Website"
 
     [gmgt_section.data.appearance]
     slide_animation = "fadeIn"
+    section_background = "bg-transparent"
 
     [gmgt_section.data.icons]
     icon_transform = "shrink-10 up-2 left-1"
@@ -465,6 +466,8 @@ partial = "goandtalk/content/text-block"
   title_pv = "3"
   title_transform = "ttc"
   intro = "From A to Z"
+  title = "Building a Marketing Website"
+  content = "Go and Talk page builder is a lightweight web design tool running in the browser. It empowers designers and marketers to create presentable pages quickly without coding. It is optimized for running on mobile devices such as tablets. The generated web pages are responsive, lightweight and optimized for search engines.\n\nGo and Talk page builder can load theme setting and data files from remote storage, and fetch image list from your website repository. You can back up work in progress data to a data repository, continue editing from another computer, export and publish to the website repository when done.\n\nWhen your website has grown in size, Go and Talk premium theme for Hugo ( a site generator) can batch process your data files and turn these files into web pages.\n\nThis tutorial gives a step to step guide to build and host your first website. You can add unique marketing pages one by one. You can save the homepage as a new page, add and remove sections as required, and create a new page quickly.\n\nIf you already have a hosting space and domain name, you can save the web pages to your hosting space.\n\nPlease visit other tutorials and find more information on the topic of interest.\n"
 
     [gmgt_section.data.appearance]
     section_background = "bg-white-60"

@@ -2,7 +2,7 @@
 date = "2019-01-09T00:00:00Z"
 description = "Go and Talk, a lightweight web design tool for your big ideas"
 draft = false
-gt_page_builder = true
+# gt_page_builder = true
 header_class = "bg-transparent"
 iscjklanguage = false
 lastmod = "2019-01-09T00:00:00Z"

@@ -4,6 +4,9 @@ description = "An introduction to Go and Talk web publishing solution, and a beg
 draft = false
 gt_page_builder = true
 header_class = "bg-transparent"
+icon_mask = "square"
+inner_icon = "paint-roller"
+inner_icon_transform = "shrink-6"
 iscjklanguage = false
 lastmod = "2019-01-09T00:00:00Z"
 lightness = 0.0
@@ -19,9 +22,6 @@ skip_cover_nav = false
 skip_slide_animation = false
 title = "An Overview of Go and Talk Page Builder"
 type = "presentation"
-icon_mask = "square"
-inner_icon_transform = "shrink-6"
-inner_icon = "paint-roller"
 
 [[gmgt_section]]
 id = "898b3"
@@ -52,6 +52,15 @@ partial = "goandtalk/cover/hero-dark-background-with-text-at-center"
     overlay_background = "bg-black-05"
     responsive = false
 
+    [gmgt_section.data.bg_icon]
+    animation = "slowUp"
+    bg_icon_color = "white-10"
+    bg_icon_display = "self-center"
+    bg_icon_size = "fa-3x"
+    icon_mask = "paint-roller"
+    inner_icon = "keyboard"
+    inner_icon_transform = "shrink-11 up-5.5 left-1.5"
+
     [gmgt_section.data.cta]
     background_color = "bg-black-20"
     button_text_color = "white-90"
@@ -65,19 +74,10 @@ partial = "goandtalk/cover/hero-dark-background-with-text-at-center"
     url = "/tutorial/"
 
     [gmgt_section.data.image]
-    flow_end = true
-    responsive = false
-    overlay_background = "bg-transparent"
     animation = "none"
-
-    [gmgt_section.data.bg_icon]
-    icon_mask = "paint-roller"
-    inner_icon_transform = "shrink-11 up-5.5 left-1.5"
-    bg_icon_color = "white-10"
-    bg_icon_size = "fa-3x"
-    inner_icon = "keyboard"
-    bg_icon_display = "self-center"
-    animation = "slowUp"
+    flow_end = true
+    overlay_background = "bg-transparent"
+    responsive = false
 
     [gmgt_section.data.menu]
 
@@ -137,9 +137,9 @@ partial = "goandtalk/slides/collection-big-icon-mono"
     [gmgt_section.data.appearance]
     animation = "fadeIn"
     icon_color = "black-20 hover-primary-color"
+    link_color = "link-gold"
     section_background = "bg-white-90"
     slide_animation = "fadeIn"
-    link_color = "link-gold"
 
     [[gmgt_section.data.column]]
     description = "Copy from a ready made page, add or remove blocks. \n\nGet what you see. Quickly. "
@@ -166,34 +166,35 @@ id = "53f57"
 partial = "goandtalk/slides/collection-big-icon-circle-mask"
 
   [gmgt_section.data]
-  title = "Web Publishing Made Easy"
   column_class = "w-25-l"
-  resize_column = "flex-auto"
-  horizontal_position = "justify-center"
   data_fa_mask = "coffee"
   data_fa_transform = "up-2 shrink-10"
-  is_global = false
-  intro = " "
   description = "  "
+  horizontal_position = "justify-center"
+  intro = " "
+  is_global = false
+  resize_column = "flex-auto"
+  title = "Web Publishing Made Easy"
 
     [gmgt_section.data.appearance]
     animation = "fadeIn"
-    section_background = "bg-white-70"
     card_background = "bg-light-gray"
+    section_background = "bg-white-70"
     slide_animation = "fadeIn"
+    text_color = "primary-color-first-letter-h3"
 
     [[gmgt_section.data.column]]
-    description = "Zero set up. \n\nBrowse a page and start writing."
+    description = "Zero setup. \n\nBrowse a page and start writing.\n\nLoad prebuilt themes and public pages from remote storage."
     icon = "magic"
     title = "Simple"
 
     [[gmgt_section.data.column]]
-    description = "For beginners to build the first website without code."
+    description = "Easy for beginners to build the first stylish website without code.\n\nEasy for designers and developers to create themes or customize everything."
     icon = "birthday-cake"
     title = "Easy"
 
     [[gmgt_section.data.column]]
-    description = "Grow with your needs. \n\nCreate multiple pages. \n\nManage multiple projects.\n\nCustomize styles and templates."
+    description = "Shorter time to market.\n\nGrow with your needs.\n \nCreate multiple pages. \n\nManage multiple projects."
     icon = "chart-line"
     title = "Effective"
 
@@ -202,15 +203,15 @@ id = "sla8lxg03"
 partial = "goandtalk/slides/collection-big-icon-circle-mask"
 
   [gmgt_section.data]
-  title = "Data Stored in Your Browser"
   column_class = "w-25-l"
-  resize_column = "flex-auto"
-  horizontal_position = "justify-center"
   data_fa_mask = "tablet"
   data_fa_transform = "up-2 shrink-10"
-  is_global = false
-  intro = "Same App, Your Own Content"
   description = "  "
+  horizontal_position = "justify-center"
+  intro = "Same App, Your Own Content"
+  is_global = false
+  resize_column = "flex-auto"
+  title = "Data Stored in Your Browser"
 
     [gmgt_section.data.appearance]
     animation = "fadeIn"
@@ -233,28 +234,30 @@ partial = "goandtalk/slides/collection-big-icon-circle-mask"
     title = "Publishing"
 
 [[gmgt_section]]
-id = "sagadno57"
-partial = "goandtalk/slides/collection-big-icon-mono"
-is_global = true
+data = ""
 data_key = "finding_toolbar"
+id = "sagadno57"
+is_global = true
+partial = "goandtalk/slides/collection-big-icon-mono"
 
 [[gmgt_section]]
-id = "s2j5ihjm9"
-partial = "goandtalk/slides/collection-big-icon-circle-mask"
-is_global = true
+data = ""
 data_key = "app_status_on_off"
-
-[[gmgt_section]]
-id = "s0wsa1tcv"
-partial = "goandtalk/slides/collection-text-custom-width"
+id = "s2j5ihjm9"
 is_global = true
-data_key = "buttons_in_edit_mode"
-
-[[gmgt_section]]
-id = "szyn4ou5h"
 partial = "goandtalk/slides/collection-big-icon-circle-mask"
+
+[[gmgt_section]]
+data_key = "buttons_in_edit_mode"
+id = "s0wsa1tcv"
 is_global = true
+partial = "goandtalk/slides/collection-text-custom-width"
+
+[[gmgt_section]]
 data_key = "data_browser_database"
+id = "szyn4ou5h"
+is_global = true
+partial = "goandtalk/slides/collection-big-icon-circle-mask"
 
 [[gmgt_section]]
 id = "cce58"
@@ -287,6 +290,7 @@ partial = "goandtalk/content/text-block"
   card_font_weight = "4"
   card_overlay = 0.0
   card_width = 100.0
+  embed_aspect_ratio = "16x9"
   height_reference = "h"
   image_br = "br0"
   image_column_width = 100.0
@@ -303,13 +307,19 @@ partial = "goandtalk/content/text-block"
   title_ph = "0"
   title_pv = "3"
   title_transform = "ttc"
-  embed_aspect_ratio = "16x9"
-  title = "An Overview of Go and Talk Page Builder"
-  content = "Go and Talk page builder is a lightweight web design tool running in the browser. It empowers designers and marketers to create presentable pages quickly without coding. It is optimized for running on mobile devices such as tablets. The generated web pages are responsive.\n\nGo and Talk page builder starts to run when you browse a tutorial page. It looks for site id and document id from the navigation address, and uses the default ids if you are browsing a page for the first time. It then looks for data in your browser and display the page using your data. If no data is found, it displays the default content. \n\nYou can make changes to the pages freely while you follow a tutorial. You can find the original content of the tutorial in Talks section. \n\nYou can use the page builder to manage multiple sites or projects, and create multiple pages. The step to step guides are in other tutorials.\n\nEach section on this page is an app. You can browse the page as normal, or edit the content by toggling on an app and switching to editing mode. You data stays in your browser while you editing a page.\n\nWhen you are ready to publish, you can export a page without editor. It is slimmer and loads faster. \n\nThis page gives an overview of the editor toolbars and how it works in general. If you are new to web publishing, you may follow the steps in [Building a Marketing Website From A to Z ](/tutorial/building-a-marketing-website-from-a-to-z) to build your first website quickly."
 
     [gmgt_section.data.appearance]
     section_background = "bg-white-60"
     slide_animation = "fadeIn"
+
+    [gmgt_section.data.base_image]
+    responsive = false
+
+    [gmgt_section.data.bg_icon]
+    bg_icon_display = "dn"
+    icon_mask = "square"
+    inner_icon = "font"
+    inner_icon_transform = "shrink-6"
 
     [gmgt_section.data.cta]
     align = "center"
@@ -331,15 +341,6 @@ partial = "goandtalk/content/text-block"
     [gmgt_section.data.image]
     responsive = false
 
-    [gmgt_section.data.base_image]
-    responsive = false
-
-    [gmgt_section.data.bg_icon]
-    icon_mask = "square"
-    inner_icon = "font"
-    inner_icon_transform = "shrink-6"
-    bg_icon_display = "dn"
-
 [[gmgt_section]]
 data = ""
 id = "gt_footer"
@@ -347,16 +348,16 @@ is_global = true
 partial = "goandtalk/footer/default_footer"
 +++
 
-Go and Talk page builder is a lightweight web design tool running in the browser. It empowers designers and marketers to create presentable pages quickly without coding. It is optimized for running on mobile devices such as tablets. The generated web pages are responsive.
+Go and Talk page builder is a lightweight web design tool running in the browser. It empowers designers and marketers to create presentable pages quickly without coding. It is tailored for running on mobile devices such as tablets. The generated web pages are responsive, slim, and optimized for search engines.
 
-Go and Talk page builder starts to run when you browse a tutorial page. It looks for site id and document id from the navigation address, and uses the default ids if you are browsing a page for the first time. It then looks for data in your browser and display the page using your data. If no data is found, it displays the default content. 
+Go and Talk page builder starts to run when you browse a tutorial page. It looks for site id and document id from the navigation address, and uses the default ids if you are browsing a page for the first time. It then looks for data in your browser and display the page using your data. If no data is found, it displays the default content.
 
-You can make changes to the pages freely while you follow a tutorial. You can find the original content of the tutorial in Talks section. 
+You can load a public page from remote storage and make changes to the pages freely while you follow a tutorial. You can find the original content of the tutorial in Talks section.
 
-You can use the page builder to manage multiple sites or projects, and create multiple pages. The step to step guides are in other tutorials.
+Go and Talk page builder is capable to  manage multiple sites or projects, and create multiple pages. The step to step guides are in other tutorials.
 
-Each section on this page is an app. You can browse the page as normal, or edit the content by toggling on an app and switching to editing mode. You data stays in your browser while you editing a page.
+Each section on this page is an app. You can browse the page as normal, or edit the content by toggling on an app and switching to editing mode. Your data stays in your browser while you editing a page.
 
-When you are ready to publish, you can export a page without editor. It is slimmer and loads faster. 
+When you are ready to publish, you can export a page without editor. It is slimmer and loads faster.
 
 This page gives an overview of the editor toolbars and how it works in general. If you are new to web publishing, you may follow the steps in [Building a Marketing Website From A to Z ](/tutorial/building-a-marketing-website-from-a-to-z) to build your first website quickly.
